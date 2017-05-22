@@ -13,13 +13,13 @@ User-friendly miner supports Bytecoin, Monero, Quazarcoin, Litecoin, DarkNote, F
 Run in background:
 
 ```console
-$ docker run -d --name some-minergate-cli minecoins/minergate-cli -user cryptocurrencies.miner@gmail.com -xmr
+$ docker run -d --name some-minergate-cli boredland/docker-minergate-cli -user cryptocurrencies.miner@gmail.com -xmr
 ```
 
 Get minergate-cli options with:
 
 ```console
-$ docker run --rm minecoins/minergate-cli -help
+$ docker run --rm boredland/docker-minergate-cli -help
 ```
 
 Fetch logs of a container:
